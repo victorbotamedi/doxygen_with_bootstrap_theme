@@ -22,10 +22,12 @@ $( document ).ready(function()
 	$("table.directory").addClass("table table-striped");
 	$("table.fieldtable").addClass("table") // tables where elements like enumerations are shown
 
+
+
 	$(".contents").addClass("panel panel-default");
 
 	$("table.memberdecls").addClass("table"); // table listing all member functions
-	$("[class^=memitem]").addClass("active");
+	$(".memberdecls").find(".memSeparator").remove();
 
 	$("span.mlabel").addClass("label label-info"); // labels containing abstract/virtual info 
 });
