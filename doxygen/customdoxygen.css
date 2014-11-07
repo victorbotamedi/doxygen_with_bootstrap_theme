@@ -719,13 +719,7 @@ table.directory {
 /* @end */
 
 div.dynheader {
-        margin-top: 8px;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    margin-top: 8px;
 }
 
 address {
@@ -875,21 +869,23 @@ div.ingroups a
 
 div.header
 {
-        background-image:url('nav_h.png');
-        background-repeat:repeat-x;
-	background-color: #F9FAFC;
 	margin:  0px;
-	border-bottom: 1px solid #C4CFE5;
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.headertitle
 {
 	padding: 5px 5px 5px 10px;
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 dl
 {
-        padding: 0 0 0 10px;
+    padding: 0 0 0 10px;
 }
 
 /* dl.note, dl.warning, dl.attention, dl.pre, dl.post, dl.invariant, dl.deprecated, dl.todo, dl.test, dl.bug */
@@ -1095,19 +1091,11 @@ div.toc li.level4 {
 }
 
 .inherit_header {
-        font-weight: bold;
-        color: gray;
-        cursor: pointer;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    font-weight: bold;
 }
 
 .inherit_header td {
-        padding: 6px 0px 2px 5px;
+    padding: 6px 0px 2px 5px;
 }
 
 .inherit {
