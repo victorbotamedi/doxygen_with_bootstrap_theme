@@ -61,7 +61,9 @@ namespace app
        * \brief do something special.
        *
        * Our second method, here we receive some parameters.
+       * For some reason it is deprecated.
        *
+       * \deprecated this is a deprecated method.
        * \param paramA our first parameter.
        * \param paramB our second parameter.
        * \return a cool Flag value.

@@ -6,7 +6,13 @@ $( document ).ready(function()
 	$(".dyncontent").addClass("panel panel-default");
 
 	$(".fragment").addClass("well"); // panel containing blocks of code
-	$(".memitem").addClass("panel panel-default"); // panel containing a member function
+
+	$(".memitem").addClass("panel panel-info"); // panel containing a member function
+	$(".memitem").find(".deprecated").closest(".memitem").addClass("panel-danger"); // change the style of deprecated functions
+	$(".deprecated").find(".el")
+		.addClass("label label-danger")
+		.css("margin-bottom", "5px");
+
 	$(".memproto").addClass("panel-heading"); // panel containing a member function prototype
 	$(".memdoc").addClass("panel-body"); // panel containing a member function description
 
