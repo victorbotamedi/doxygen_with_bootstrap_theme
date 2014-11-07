@@ -10,5 +10,9 @@ $( document ).ready(function()
 	$(".memproto").addClass("panel-heading"); // panel containing a member function prototype
 	$(".memdoc").addClass("panel-body"); // panel containing a member function description
 
+	$("table.params").addClass("table");
+	$("table.directory").addClass("table table-striped");
+	$("table.fieldtable").addClass("table") // tables where elements like enumerations are shown
+
 	$(".contents").addClass("panel panel-primary");
 });
