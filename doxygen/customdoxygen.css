@@ -1,7 +1,7 @@
 /* The standard CSS for doxygen 1.8.7 */
 
 body, table, div, p, dl {
-	font: 400 14px/22px Roboto,sans-serif;
+	font: 400 14px/22px "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
 }
 
 /* @group Heading Levels */
@@ -11,9 +11,7 @@ h1.groupheader {
 }
 
 .title {
-	font: 400 14px/28px Roboto,sans-serif;
-	font-size: 150%;
-	font-weight: bold;
+	font-size: 2.25em;
 	margin: 10px 2px;
 }
 
@@ -544,7 +542,7 @@ dl.reflist dd {
 }       
         
 .params .paramdir {
-        font-family: "courier new",courier,monospace;
+        font-family: Consolas,courier,monospace;
         vertical-align: top;
 }
 
@@ -659,7 +657,6 @@ div.directory {
 }
 
 .icon {
-    font-family: Arial, Helvetica;
     font-weight: bold;
     font-size: 12px;
     height: 14px;
@@ -817,7 +814,6 @@ table.doxtable th {
 	text-decoration: none;
 	outline: none;
 	color: #283A5D;
-	font-family: 'Lucida Grande',Geneva,Helvetica,Arial,sans-serif;
 	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 	text-decoration: none;        
 }
@@ -843,17 +839,8 @@ table.doxtable th {
 
 div.summary
 {
-	float: right;
-	font-size: 8pt;
-	padding-right: 5px;
-	width: 50%;
-	text-align: right;
+	visibility: hidden
 }       
-
-div.summary a
-{
-	white-space: nowrap;
-}
 
 div.ingroups
 {
