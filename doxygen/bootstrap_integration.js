@@ -15,4 +15,7 @@ $( document ).ready(function()
 	$("table.fieldtable").addClass("table") // tables where elements like enumerations are shown
 
 	$(".contents").addClass("panel panel-primary");
+
+	$("table.memberdecls").addClass("table"); // table listing all member functions
+	$("[class^=memitem]").addClass("active");
 });
