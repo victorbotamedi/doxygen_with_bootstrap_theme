@@ -2,7 +2,7 @@ $( document ).ready(function()
 {
 	$("div.tabs").addClass("nav nav-tabs");
 
-	$(".dynheader").addClass("alert alert-info");
+	$(".dynheader").addClass("alert alert-info"); // expand button for class diagrams
 	$(".dyncontent").addClass("panel panel-default");
 
 	$(".fragment").addClass("well"); // panel containing blocks of code
@@ -24,4 +24,6 @@ $( document ).ready(function()
 
 	$("table.memberdecls").addClass("table"); // table listing all member functions
 	$("[class^=memitem]").addClass("active");
+
+	$("span.mlabel").addClass("label label-info"); // labels containing abstract/virtual info 
 });

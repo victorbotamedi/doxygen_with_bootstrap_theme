@@ -568,13 +568,6 @@ span.mlabels {
 }
 
 span.mlabel {
-        background-color: #728DC1;
-        border-top:1px solid #5373B4;
-        border-left:1px solid #5373B4;
-        border-right:1px solid #C4CFE5;
-        border-bottom:1px solid #C4CFE5;
-	text-shadow: none;
-	color: white;
 	margin-right: 4px;
 	padding: 2px 3px;
 	border-radius: 3px;
