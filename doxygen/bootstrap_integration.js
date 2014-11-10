@@ -63,4 +63,9 @@ $( document ).ready(function()
 	$(".right").css("position", "relative");
 	$(".right").css("right", "0px");
 	$(".right").css("left", "141px");
+
+	// detail level
+	$("div.levels").css("margin", "0.5em");
+    $("div.levels > span").addClass("btn btn-default btn-xs");
+    $("div.levels > span").css("margin-right", "0.25em");
 });

@@ -4,7 +4,7 @@ Doxygen using bootstrap
 This project demonstrates how to integrate bootstrap with doxygen to get a better looking and more responsive documentation pages.
 
 ---
-#Running the Doxyfile
+##Running the Doxyfile
 
 1. Install [doxygen 1.8.8](http://www.stack.nl/~dimitri/doxygen/download.html)
 2. Install [Graphviz](http://www.graphviz.org/Download.php) (dot tool)
