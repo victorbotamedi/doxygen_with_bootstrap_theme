@@ -2,6 +2,7 @@ Doxygen using bootstrap
 =======================
 
 This project demonstrates how to integrate bootstrap with doxygen to get a better looking and more responsive documentation pages.
+The inspiration came from [CoActionOS](http://coactionos.com/embedded%20design%20tips/2014/01/07/Tips-Integrating-Doxygen-and-Bootstrap/).
 
 ---
 ##Running the Doxyfile
