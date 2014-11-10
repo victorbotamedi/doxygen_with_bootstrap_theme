@@ -28,11 +28,6 @@ h3.groupheader {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	-webkit-transition: text-shadow 0.5s linear;
-	-moz-transition: text-shadow 0.5s linear;
-	-ms-transition: text-shadow 0.5s linear;
-	-o-transition: text-shadow 0.5s linear;
-	transition: text-shadow 0.5s linear;
 	margin-right: 15px;
 }
 
@@ -155,18 +150,11 @@ dl.el {
 }
 
 pre.fragment {
-    margin: 4px 8px 4px 2px;
-    overflow: auto;
     word-wrap: break-word;
     font-size:  9pt;
     line-height: 125%;
     font-family: Consolas, monospace, fixed;
     font-size: 105%;
-}
-
-div.fragment {
-    padding: 4px 6px;
-    margin: 4px 8px 4px 2px;
 }
 
 div.line {
@@ -184,21 +172,10 @@ div.line {
 	padding-left: 53px;
 	padding-bottom: 0px;
 	margin: 0px;
-	-webkit-transition-property: background-color, box-shadow;
-	-webkit-transition-duration: 0.5s;
-	-moz-transition-property: background-color, box-shadow;
-	-moz-transition-duration: 0.5s;
-	-ms-transition-property: background-color, box-shadow;
-	-ms-transition-duration: 0.5s;
-	-o-transition-property: background-color, box-shadow;
-	-o-transition-duration: 0.5s;
-	transition-property: background-color, box-shadow;
-	transition-duration: 0.5s;
 }
 
 div.line.glow {
 	background-color: cyan;
-	box-shadow: 0 0 10px cyan;
 }
 
 
@@ -228,11 +205,6 @@ div.ah {
 	border-radius: 0.5em;
 	-webkit-border-radius: .5em;
 	-moz-border-radius: .5em;
-	box-shadow: 2px 2px 3px #999;
-	-webkit-box-shadow: 2px 2px 3px #999;
-	-moz-box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 2px;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#000),color-stop(0.3, #444));
-	background-image: -moz-linear-gradient(center top, #eee 0%, #444 40%, #000);
 }
 
 div.groupHeader {
@@ -811,7 +783,6 @@ table.doxtable th {
 	text-decoration: none;
 	outline: none;
 	color: #283A5D;
-	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 	text-decoration: none;        
 }
 
@@ -1104,7 +1075,6 @@ tr.heading h2 {
 	background-color: white;
 	border: 1px solid gray;
 	border-radius: 4px 4px 4px 4px;
-	box-shadow: 1px 1px 7px gray;
 	display: none;
 	font-size: smaller;
 	max-width: 80%;
