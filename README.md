@@ -4,7 +4,7 @@ Doxygen using bootstrap
 This project demonstrates how to integrate bootstrap with doxygen to get a better looking and more responsive documentation pages.
 The inspiration came from [CoActionOS](http://coactionos.com/embedded%20design%20tips/2014/01/07/Tips-Integrating-Doxygen-and-Bootstrap/).
 
----
+
 ## Applying this theme
 
 Some minor changes have to be done in doxyfile in order to customize the doxygen output, we have to set some options to point to the files located in`/doxygen` folder: 
@@ -17,7 +17,6 @@ Some minor changes have to be done in doxyfile in order to customize the doxygen
 * `HTML_EXTRA_FILES       = ./doxygen/bootstrap_integration.js`
 
 
----
 ## Running the Doxyfile
 
 1. Install [doxygen 1.8.8](http://www.stack.nl/~dimitri/doxygen/download.html)
